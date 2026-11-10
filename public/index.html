@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#faf7f0">
+<link rel="icon" href="/media/favicon.ico" sizes="any">
+<link rel="icon" type="image/webp" sizes="16x16" href="/media/favicon-16x16.webp">
+<link rel="icon" type="image/webp" sizes="32x32" href="/media/favicon-32x32.webp">
+<link rel="apple-touch-icon" sizes="180x180" href="/media/apple-touch-icon.png">
+<link rel="icon" type="image/webp" sizes="192x192" href="/media/android-chrome-192x192.webp">
+<link rel="icon" type="image/webp" sizes="512x512" href="/media/android-chrome-512x512.webp">
+<title>AMARO — Seis packs de café</title>
+<meta name="description" content="AMARO reúne seis packs de café para distintos objetivos y momentos del día. Encuentra el que acompaña tu rutina.">
+<meta property="og:title" content="AMARO — Café a tu hora">
+<meta property="og:description" content="Seis packs de café AMARO para distintos objetivos. Ama lo amargo sin perder el descanso.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/media/android-chrome-512x512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+<link rel="stylesheet" href="/css/landing.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#top" aria-label="AMARO, volver al inicio"><img class="brand-icon" src="/media/android-chrome-192x192.webp" alt="" /> AMARO</a>
+  <nav aria-label="Navegación principal"><a href="#levels">Los seis packs</a><a href="/quiz.html">Encuentra tu pack</a><a class="nav-shop" href="/shop.html">Tienda</a></nav>
+</header>
+
+<main>
+<section class="film" id="top" aria-label="Cápsulas AMARO, de mayor a menor nivel de cafeína">
+  <div class="stage">
+    <canvas id="cv" width="1280" height="720" role="img" aria-label="Cápsulas AMARO ordenadas de mayor a menor tamaño"></canvas>
+    <div class="beats">
+      <article class="beat on">
+        <h1>Café a tu hora.</h1>
+        <p>AMARO reúne seis packs de café para acompañar distintos objetivos y momentos del día.</p>
+        <p class="slogan">Ama lo amargo sin perder el descanso.</p>
+      </article>
+      <article class="beat"><h2>El café es mucho más que cafeína.</h2><p>Es sabor, aroma y un momento para disfrutar.</p></article>
+      <article class="beat"><h2>Cada momento pide una intensidad distinta.</h2><p>Un comienzo temprano y una tarde tranquila merecen tazas diferentes.</p></article>
+      <article class="beat"><h2>Seis packs. A cada jornada.</h2><p>Elige el pack que mejor acompaña tu día.</p></article>
+    </div>
+    <div class="cta-row" id="cta"><a class="btn" href="/quiz.html">Encuentra tu pack</a><a class="btn btn--ghost" href="#levels">Explora los seis packs</a></div>
+    <i class="bar" id="bar"></i>
+  </div>
+</section>
+
+<section class="levels" id="levels" aria-labelledby="lv-title">
+  <div class="levels__intro">
+    <h2 id="lv-title">Seis packs para distintos objetivos.</h2>
+    <p>Elige entre mantenimiento, reducir cafeína, descafeinado y sueño sensible.</p>
+    <p class="note">Seis packs para acompañar tus preferencias y tu rutina.</p>
+  </div>
+  <div class="lv-list" id="lv-list"></div>
+</section>
+
+<section class="why" aria-labelledby="why-title">
+  <h2 id="why-title">¿Por qué elegir tu nivel?</h2>
+  <div class="why__grid">
+    <article><h3>Conserva el ritual, cambia la intensidad.</h3><p>Disfruta del mismo momento con una cápsula que acompañe tu hora.</p></article>
+    <article><h3>Seis packs para tu rutina.</h3><p>Una colección para que encuentres la opción que encaja contigo.</p></article>
+    <article><h3>Un pack para tu día.</h3><p>Elige según tu objetivo y el momento en que disfrutas del café.</p></article>
+  </div>
+</section>
+
+<section class="end" aria-labelledby="end-title">
+  <h2 id="end-title">Ama lo amargo sin perder el descanso.</h2>
+  <p>Unas preguntas rápidas pueden orientarte hacia tu pack. Después, tú eliges la taza, la hora y el ritmo.</p>
+  <div class="end__actions"><a class="btn" href="/quiz.html">Encuentra tu nivel</a><a class="btn btn--ghost" href="/shop.html">Compra la colección</a></div>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#top" aria-label="AMARO, volver al inicio"><img class="brand-icon" src="/media/android-chrome-192x192.webp" alt="" /> AMARO</a>
+  <p class="slogan">Ama lo amargo sin perder el descanso.</p>
+  <nav aria-label="Navegación del pie de página"><a href="#levels">Los seis packs</a><a href="/quiz.html">Encuentra tu pack</a><a href="/shop.html">Tienda</a></nav>
+</footer>
+<script type="module" src="/js/landing.js"></script>
+</body>
+</html>
